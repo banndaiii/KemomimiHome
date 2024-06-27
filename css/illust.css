@@ -1,3 +1,7 @@
+body {
+  position: relative;
+}
+
 .gallery-area {
   display: flex;
   /* Flexコンテナとして要素を配置 */
@@ -60,6 +64,8 @@
   float: left;
   /*要素を左に*/
   overflow: hidden;
+  /* スマホ表示時は隠す */
+  display: none;
 }
 
 .header-list li {
@@ -67,6 +73,43 @@
   float: left;
   padding: 17px 20px;
 }
+
+.menu-icon {
+  float: right;
+  margin-right: 25px;
+  margin-top: 25px;
+}
+
+.menu-icon img {
+  width: 40px;
+  height: 40px;
+}
+
+@media (min-width: 768px) {
+
+  /* PC表示時には表示する */
+  .header-list {
+    display: block;
+  }
+
+  /* PC表示時には隠す */
+  .menu-icon {
+    display: none;
+  }
+}
+
+#side-menu {
+  /* 絶対位置で表示する */
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  background-color: rgb(131, 100, 100);
+
+  /* 初期状態は非表示 */
+  display: none;
+}
+
 
 .main {
   background-color: #d8d8d8;

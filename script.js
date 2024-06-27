@@ -1,6 +1,9 @@
 // script.js
 // Get the button element
 const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+const openMenuBtn = document.getElementById("openMenuBtn");
+const closeMenuBtn = document.getElementById("closeMenuBtn");
+const sideMenu = document.getElementById("side-menu");
 
 // Add a click event listener to the button
 scrollToTopBtn.addEventListener("click", function () {
@@ -18,4 +21,12 @@ window.addEventListener("scroll", function () {
   } else {
     scrollToTopBtn.style.display = "none";
   }
+});
+
+openMenuBtn.addEventListener("click", function () {
+  sideMenu.style.display = "block";
+});
+
+closeMenuBtn.addEventListener("click", function () {
+  sideMenu.style.display = "none";
 });
