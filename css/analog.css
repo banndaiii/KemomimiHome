@@ -85,17 +85,6 @@ body {
   height: 40px;
 }
 
-.close-icon {
-  overflow: hidden;
-  margin-top: 25px;
-}
-
-.close-icon img {
-  float: right;
-  width: 40px;
-  height: 40px;
-}
-
 @media (min-width: 768px) {
   /* PC表示時には表示する */
   .header-list {
@@ -105,6 +94,18 @@ body {
   .menu-icon {
     display: none;
   }
+
+  .close-icon {
+    overflow: hidden;
+    margin-top: 25px;
+  }
+  
+  .close-icon img {
+    float: right;
+    width: 40px;
+    height: 40px;
+  }
+  
 }
 
 #side-menu {
