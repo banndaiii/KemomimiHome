@@ -102,7 +102,7 @@ body {
   top: 0;
   right: 0;
   height: 100%;
-  background-color: rgb(131, 100, 100);
+  background-color: hsl(50, 27%, 59%);
 
   /* 初期状態は非表示 */
   display: none;
