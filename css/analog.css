@@ -74,6 +74,12 @@ body {
   padding: 17px 20px;
 }
 
+.main {
+  background-color: #d8d8d8;
+  padding-bottom: 25px;
+  margin: 0 auto;
+}
+
 .menu-icon {
   float: right;
   margin-right: 25px;
