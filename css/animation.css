@@ -64,14 +64,20 @@ body {
   float: left;
   /*要素を左に*/
   overflow: hidden;
-    /* スマホ表示時は隠す */
-    display: none;
+  /* スマホ表示時は隠す */
+  display: none;
 }
 
 .header-list li {
   list-style: none;
   float: left;
   padding: 17px 20px;
+}
+
+.main {
+  background-color: #d8d8d8;
+  padding-bottom: 25px;
+  margin: 0 auto;
 }
 
 .menu-icon {
@@ -97,14 +103,17 @@ body {
 }
 
 @media (min-width: 768px) {
+
   /* PC表示時には表示する */
   .header-list {
     display: block;
   }
+
   /* PC表示時には隠す */
   .menu-icon {
     display: none;
   }
+
 }
 
 #side-menu {
@@ -120,17 +129,19 @@ body {
   display: none;
 }
 
-.main {
-  background-color: #d8d8d8;
-  padding-bottom: 25px;
-  margin: 0 auto;
-}
-
 h1 {
   color: #4f6e5a;
   font-size: 50px;
   text-align: center;
   border-bottom: 5px solid #556b2f;
+}
+
+a {
+  color: #5b5e85;
+}
+
+a:hover {
+  color: #638f8b;
 }
 
 .scroll-to-top {
