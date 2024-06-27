@@ -64,8 +64,8 @@ body {
   float: left;
   /*要素を左に*/
   overflow: hidden;
-    /* スマホ表示時は隠す */
-    display: none;
+  /* スマホ表示時は隠す */
+  display: none;
 }
 
 .header-list li {
@@ -91,17 +91,6 @@ body {
   height: 40px;
 }
 
-@media (min-width: 768px) {
-  /* PC表示時には表示する */
-  .header-list {
-    display: block;
-  }
-  /* PC表示時には隠す */
-  .menu-icon {
-    display: none;
-  }
-}
-
 .close-icon {
   overflow: hidden;
   margin-top: 25px;
@@ -111,6 +100,20 @@ body {
   float: right;
   width: 40px;
   height: 40px;
+}
+
+@media (min-width: 768px) {
+
+  /* PC表示時には表示する */
+  .header-list {
+    display: block;
+  }
+
+  /* PC表示時には隠す */
+  .menu-icon {
+    display: none;
+  }
+
 }
 
 #side-menu {
