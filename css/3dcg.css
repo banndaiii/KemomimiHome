@@ -102,6 +102,17 @@ body {
   }
 }
 
+.close-icon {
+  overflow: hidden;
+  margin-top: 25px;
+}
+
+.close-icon img {
+  float: right;
+  width: 40px;
+  height: 40px;
+}
+
 #side-menu {
   /* 絶対位置で表示する */
   position: absolute;
