@@ -63,7 +63,15 @@ body {
 .image-area {
   /*画像*/
   margin: 0 auto;
-  width: 400px;
+  width: 100%; /* 親要素の幅を設定 */
+  max-width: 400px; /* 必要に応じて最大幅を設定 */
+  border: 1px solid #ccc; /* 親要素のスタイルを設定 */
+}
+
+.image-area img{
+  width: 100%; /* 画像の幅を親要素に合わせる */
+  height: auto; /* 画像の高さを自動調整 */
+  display: block; /* 画像の隙間を取り除く */
 }
 
 a {
