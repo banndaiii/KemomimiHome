@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+.main,
+.footer {
+  text-align: center;
+}
+
+h1 {
+  color: #4f6e5a;
+  border: 5px solid #556b2f;
+}
+
+h3 {
+  color: #556b2f;
+}
+
+h2 {
+  padding-top: 10px;
+}
+
+.header {
+  overflow: hidden;
+  /*はみ出した部分が見えなくなる*/
+  background-color: rgb(169, 184, 170);
+  height: 90px;
+}
+
+.header-logo {
+  font-size: 28px;
+  float: left;
+  padding: 25px 30px;
+}
+
+.header-list {
+  float: left;
+  /*要素を左に*/
+  overflow: hidden;
+}
+
+.header-list li {
+  list-style: none;
+  float: left;
+  padding: 17px 20px;
+}
+
+.main {
+  background-color: #d8d8d8;
+
+
+  padding-bottom: 25px;
+  margin: 0 auto;
+}
+
+.footer {
+  background-color: #c0c0c0;
+  height: 240px;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+
+.image-area {
+  /*画像*/
+  margin: 0 auto;
+  width: 400px;
+}
+
+a {
+  color: #5b5e85;
+}
+
+a:hover {
+  color: #638f8b;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #49665a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: none;
+  /* Initially hide the button */
+}
