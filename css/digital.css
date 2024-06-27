@@ -104,6 +104,7 @@ body {
   top: 0;
   right: 0;
   height: 100%;
+  padding-right: 30px;
   background-color: hsl(50, 27%, 59%);
 
   /* 初期状態は非表示 */
