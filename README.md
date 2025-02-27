@@ -1,3 +1,3 @@
-# 作品置場サイトです
-## イラストや3DCG作品があります
+# ダサすぎ作品置場サイトです
+## 主にイラストが置いてあります
 ### https://banndaiii.github.io/KemomimiHome/
