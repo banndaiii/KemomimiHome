@@ -10,12 +10,12 @@ body {
 }
 
 h1 {
-  color: #4f6e5a;
-  border: 5px solid #556b2f;
+  color: #464950;
+  border: 5px solid #6e717e;
 }
 
 h3 {
-  color: #556b2f;
+  color: #54647c;
 }
 
 h2 {
@@ -25,14 +25,15 @@ h2 {
 .header {
   overflow: hidden;
   /*はみ出した部分が見えなくなる*/
-  background-color: rgb(169, 184, 170);
+  background-color: rgb(153, 166, 175);
   height: 90px;
 }
 
 .header-logo {
-  font-size: 28px;
+  font-size: 30px;
   float: left;
   padding: 25px 30px;
+  color: #2f343f;
 }
 
 .header-list {
@@ -71,7 +72,6 @@ h2 {
   height: 40px;
 }
 
-
 @media (min-width: 768px) {
   /* PC表示時には表示する */
   .header-list {
@@ -90,7 +90,7 @@ h2 {
   right: 0;
   height: 100%;
   padding-right: 30px;
-  background-color: hsl(50, 27%, 59%);
+  background-color: hsl(198, 11%, 76%);
 
   /* 初期状態は非表示 */
   display: none;
@@ -103,7 +103,7 @@ h2 {
 }
 
 .footer {
-  background-color: #c0c0c0;
+  background-color: #80868f;
   height: 240px;
 }
 
@@ -119,7 +119,7 @@ body {
   border: 1px solid #ccc; /* 親要素のスタイルを設定 */
 }
 
-.image-area img{
+.image-area img {
   width: 100%; /* 画像の幅を親要素に合わせる */
   height: auto; /* 画像の高さを自動調整 */
   display: block; /* 画像の隙間を取り除く */
@@ -130,14 +130,14 @@ a {
 }
 
 a:hover {
-  color: #638f8b;
+  color: #bfd388;
 }
 
 .scroll-to-top {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #49665a;
+  background-color: #495766;
   color: white;
   border: none;
   padding: 10px 20px;
